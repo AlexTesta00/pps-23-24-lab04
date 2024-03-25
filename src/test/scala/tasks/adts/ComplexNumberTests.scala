@@ -32,9 +32,9 @@ class ComplexTest:
     assertEquals("10.0 + 5.0i", complex(10.0, 5.0).asString())
 
   @Test def optionalTestAdvancedAsString() =
-    assertEquals("0.0", complex(0, 0).asString())
-    assertEquals("10.0", complex(10.0, 0).asString())
-    assertEquals("10.0 + 5.0i", complex(10.0, 5.0).asString())
-    assertEquals("10.0 - 5.0i", complex(10.0, -5.0).asString())
-    assertEquals("5.0i", complex(0, 5.0).asString())
-    assertEquals("-5.0i", complex(0, -5.0).asString())
+  assertEquals("0.0", complex(0, 0).asString())
+  assertEquals("10.0", complex(10.0, 0).asString())
+  assertEquals("10.0 + 5.0i", complex(10.0, 5.0).asString())
+  assertEquals("10.0 - 5.0i", complex(10.0, -5.0).asString())
+  assertEquals("5.0i", complex(0, 5.0).asString())
+  assertEquals("-5.0i", complex(0, -5.0).asString())
