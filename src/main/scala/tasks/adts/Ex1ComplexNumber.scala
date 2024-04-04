@@ -1,7 +1,5 @@
 package tasks.adts
 
-package u04lab
-
 object Ex1ComplexNumbers:
 
   trait ComplexADT:
